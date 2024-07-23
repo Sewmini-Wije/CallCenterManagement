@@ -1,0 +1,29 @@
+com
+└── yourcompany
+    └── yourproject
+        ├── config
+        │   └── (configuration classes, such as Spring configuration)
+        ├── controller
+        │   └── (REST controllers)
+        ├── model
+        │   └── (POJOs or entity classes)
+        ├── repository
+        │   └── (Spring Data repositories or DAOs)
+        ├── service
+        │   └── (service layer interfaces and implementations)
+        ├── dto
+        │   └── (Data Transfer Objects)
+        ├── exception
+        │   └── (custom exception classes)
+        └── Application.java (main class to run the Spring Boot application)
+
+
+
+constent: No direct equivalent. Consider util, common, or place under the root package.
+dao: repository
+jwt: security
+pojo: model
+rest: controller
+restImpl: Could be part of service or a separate package under it.
+service: service
+serviceImpl: Typically part of the service package.

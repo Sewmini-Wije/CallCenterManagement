@@ -1,0 +1,26 @@
+Administrator
+---------------
+
+total users-> crud
+skilled agent and agent monitoring
+ticket management -> crud
+customer management
+matrics of customer inquiries
+ability to monitor resolved, pending an new tickets
+
+
+
+Skilled Agent
+-------------
+
+agent monitoring
+ticket -> crud
+matrics of customer inquiries
+ability to monitor resolved, pending an new tickets
+
+Agents
+-------
+ticket management-> crud
+matrics of customer inquiries
+ability to monitor resolved, pending an new tickets
+
